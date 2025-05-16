@@ -1,0 +1,152 @@
+.imgbtn{
+    border-radius: 20%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.imgbtn:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+img{
+    height:75px;
+    width:auto;
+    border-radius: 50%;
+    
+}
+html,body{
+    height: 100%;
+    padding: 0;
+    margin:0;
+   
+}
+body{
+    background: linear-gradient(-50deg,rgb(255, 0, 234),rgb(0, 255, 251));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+        align-items: center;
+     display:flex;
+}
+#imgdiv{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color:rgb(0, 247, 255);
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(247, 255, 1);
+    
+}
+section {
+    display:none;
+}
+
+section.active {
+    display: block;
+}
+#logo{
+    border-radius: 0%;
+    height:200px;
+}
+p{
+    padding:0;
+    margin: 0;
+    opacity: 70%;
+    
+}
+li{
+    padding: 5px;;
+}
+#play{
+   background-color: aqua;
+   border-color: aqua;
+   display: block;
+   margin: 0 auto;
+}
+#logodiv{
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+}
+#play:hover{
+    background-color: rgb(122, 240, 255);
+    border-color: rgb(122, 240, 255);
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#play:active{
+    background-color: rgb(66, 255, 66);
+    border-color: rgb(66, 255, 66);
+}
+#resultdiv{
+    display: flex;
+    padding:20px 0;
+}
+#youdiv,#computerdiv{
+    margin:0 auto;
+    width:fit-content;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.resultimg{
+    margin-top: 20px;
+    width:130px;
+    height: auto;
+}
+#vs{
+    font-weight: 800;
+    font-size: 20px;
+}
+#result{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding-bottom: 30px;
+    border:5px solid rgb(1, 255, 1);
+    height:2px;
+}
+#playAgain{
+    background-color: aqua;
+        border-color: aqua;
+        display: block;
+        margin: 0 auto;
+        font-size: 22px;
+}
+#playAgain:hover{
+    background-color: rgb(88, 255, 191);
+    border-color: rgb(88, 255, 191);
+}
+#playAgain:active{
+    background-color: rgb(94, 255, 88);
+        border-color: rgb(102, 255, 88);
+}
+#gohome {
+    background-color: aqua;
+    border-color: aqua;
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#gohome:hover {
+    background-color: rgb(88, 255, 191);
+    border-color: rgb(88, 255, 191);
+}
+
+#gohome:active {
+    background-color: rgb(94, 255, 88);
+    border-color: rgb(102, 255, 88);
+}
+#finalbtndiv{
+    display:flex;
+    margin-top: 50px;
+}
+#youdiv{
+    color:rgb(13, 255, 0);
+}
+#computerdiv{
+    color:red;
+}

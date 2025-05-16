@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-scissor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <section id="first" class="active">
+        <h2>Rock(🪨)-paper(🧻)-scissor(✂️) Game</h2>
+        <div id="logodiv">
+        <img src="rock_paper_scissor.jpg" id="logo" alt="">
+        <p>wanna play!</p>
+        </div>
+        <h3>RULES</h3>
+        <ul>
+            <li>
+                If you played paper and computer played scissor you are out.
+            </li>
+            <li>
+                If you played scissor and computer played rock you are out.
+            </li>
+            <li>
+                If you played rock and computer played paper you are out.
+            </li>
+            <li>
+                In remaining cases you are declared as winner.
+            </li>
+        </ul>
+        <button id="play">PLAY GAME</button>
+    </section>
+
+
+    <section id="middle">
+    <h2>Rock(🪨)-paper(🧻)-scissor(✂️) Game</h2>
+    <div id="imgdiv">
+    <button id="rock" class="imgbtn"><img src="rock.jpg" alt="rock" id="imgrock"></button>
+    <button id="paper" class="imgbtn"><img src="paper.jpg" alt="paper" id="imgpaper"></button>
+    <button id="scissor" class="imgbtn"><img src="scissor.jpg" alt="scissor" id="imgscissor"></button>
+    <h3>select any option</h3>
+    </div>
+    </section>
+
+    <section id="final">
+        <h2>Rock(🪨)-paper(🧻)-scissor(✂️) Game</h2>
+        <div id="resultdiv">
+            <div id="youdiv">
+                <p id="you">YOU👦🏻</p>
+                <img src="" alt="" id="youimg" class="resultimg">
+            </div>
+            <p id="vs">vs</p>
+            <div id="computerdiv">
+                <p>COMPUTER💻</p>
+                <img src="" alt="" id="computerimg" class="resultimg">
+            </div>
+        </div>
+        <h3 id="result"></h3>
+        <div id="finalbtndiv">
+            <button id="gohome">GO HOME</button>
+        <button id="playAgain">PLAY AGAIN</button>
+        </div>
+
+    </section>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
